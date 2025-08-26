@@ -2,7 +2,7 @@
 
 A simple and responsive weather application that provides real-time weather updates for any city using the Open-Meteo API.
 
-🔗 Live Demo: Weather Now
+🔗 Live Demo: https://weather-now01.netlify.app/
 
 👤 Author: MrAnmesh
 

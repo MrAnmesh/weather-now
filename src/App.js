@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import Footer from "./Footer";  // import footer
 
 // Mapping weather codes to descriptions and emojis
 const weatherCodes = {
@@ -75,9 +76,7 @@ function App() {
         <button onClick={fetchWeather}>Search</button>
       </div>
 
-      {weather && weather.error && (
-        <p className="error">❌ {weather.error}</p>
-      )}
+      {weather && weather.error && <p className="error">❌ {weather.error}</p>}
 
       {weather && !weather.error && (
         <div className="weather-card">
@@ -90,6 +89,9 @@ function App() {
           </p>
         </div>
       )}
+
+      {/* Footer added here */}
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.8rem;
+  transition: transform 0.3s, color 0.3s;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #00c3ff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #f1f1f1;
+  opacity: 0.8;
+}

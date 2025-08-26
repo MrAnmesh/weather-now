@@ -4,7 +4,7 @@ A simple and responsive weather application that provides real-time weather upda
 
 🔗 Live Demo: https://weather-now01.netlify.app/
 
-👤 Author: MrAnmesh
+👤 Author: Anmesh Mishra (https://github.com/MrAnmesh)
 
 🚀 Features
 

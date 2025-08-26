@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <div className="social-icons">
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:anmeshmishra17@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           title="Email"
@@ -16,7 +16,7 @@ function Footer() {
           <MdEmail />
         </a>
         <a
-          href="https://www.linkedin.com/in/your-linkedin-id"
+          href="https://www.linkedin.com/in/anmesh-mishra/"
           target="_blank"
           rel="noopener noreferrer"
           title="LinkedIn"
@@ -24,7 +24,7 @@ function Footer() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/your-github-id"
+          href="https://github.com/MrAnmesh"
           target="_blank"
           rel="noopener noreferrer"
           title="GitHub"
